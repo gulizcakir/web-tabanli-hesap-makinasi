@@ -1,0 +1,62 @@
+h1
+{
+text-align: center;
+}
+p
+{
+border: groove;
+border-color:grey;
+padding:20px 20px;
+width:270px;
+}
+
+.container 
+{
+    max-width: 400px;
+    margin:auto;
+    box-shadow:0px 0px 45px 20px rgba(153, 153, 153, 0.493);
+}
+
+#bosluk
+{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 20px 10px;
+    font-size: 25px;
+}
+
+.butonlar 
+{
+    display: grid;
+    border-bottom: 1px solid rgb(150, 210, 214);
+    border-left: 1px solidrgb(126, 170, 168);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.butonlar > div 
+{
+    border-top: 1px solid #999;
+    border-right: 1px solid#999;
+}
+
+.buton {
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#esittir
+{
+    background-color: rgb(119, 135, 160);
+    color: rgb(34, 46, 61);
+}
+
+.buton:hover 
+{
+    background-color: #406275;
+    color: rgb(198, 239, 255);
+    transition: 0.5s ease-in-out;
+}
